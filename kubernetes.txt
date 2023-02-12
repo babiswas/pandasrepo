@@ -1,0 +1,48 @@
+===============================================
+Helm Chart:
+Helm is a package manager for kubernetes.
+brew install helm
+===============================================
+
+
+Structure
+#chart.yml
+#value.yml
+#template
+===============================================
+
+helm create demochart
+#Create helm chart
+
+Chart.yml
+values.yml
+===============================================
+1.Set up kubernetes cluster
+2.Create helm chart
+3.Fill values.yml
+#helm install command
+===============================================
+
+Demochart:
+=========
+helm create springboot
+tree springboot/
+#chart.yml
+helm template springboot
+#Verify the kubernetes config
+helm lint springboot
+#Verify the config
+#Anomaly in config
+
+==================================================
+helm install release --debug --dry-run chartname
+helm install release chartname
+helm list -a
+kubectl get all
+==================================================
+helm springboot 
+
+
+
+
+
