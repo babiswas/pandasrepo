@@ -71,6 +71,16 @@ Kubelet
 Kubeproxy
 =================================================================================================================
 Interacting with the cluster
+Master node
+==========
+API Server(Client request)
+Scheduler(scheduler)
+Controller manager(container management)
+etcd(Key value store)
+cluster brain
+===================================
+
+
 
 
 
