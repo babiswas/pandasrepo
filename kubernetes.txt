@@ -49,6 +49,11 @@ kubectl get service
 helm install release chart
 helm list -a
 kubectl get service
+===================================================
+upstream repository
+helm repo list
+helm repo add <REPO_NAME> <REPO_URL>
+helm search repo <REPO_NAME>
 
 
 
