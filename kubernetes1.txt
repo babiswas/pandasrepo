@@ -110,6 +110,25 @@ service port
 
 kubectl get service
 kubectl describe service service_name
+=====================================================================================================================
+
+clusterIp is internal service
+Loadbalancer service both internal/external ip adress
+loadbalancer type ip has both external and internal ip adress.
+=====================================================================================================================
+Namespaces in kubernetes:
+=======================
+kubectl create namespace my-namespace
+logical grouping of resources is namespace
+
+#logical grouping of resources
+#Multiple teams
+#Resource sharing
+#Blue green deployment
+#Restricted access
+
+
+
 
 
 
