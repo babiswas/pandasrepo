@@ -79,6 +79,28 @@ Controller manager(container management)
 etcd(Key value store)
 cluster brain
 ===================================
+kubectl is used to interact  with any type of kubernetes setup
+
+1.kubectl get pod
+Deployment hide the pods(Scaling)
+Deployment manages replicaset
+kubectl get pod
+kubectl get replicaset
+
+=================================================
+kubectl logs podname
+kubectl describe pod
+kubectl logs pod
+kubectl exec -it podname -- bin/bash
+===============================================
+kubectl get deployment
+kubectl delete deployment
+kubectl get replicaset
+kubectl apply -f config.yml
+===================================================
+
+
+
 
 
 
