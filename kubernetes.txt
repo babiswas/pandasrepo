@@ -40,7 +40,9 @@ helm install release chartname
 helm list -a
 kubectl get all
 ==================================================
-helm springboot 
+helm rollback release version
+helm list -a
+
 
 
 
