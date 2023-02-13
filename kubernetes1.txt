@@ -126,6 +126,7 @@ logical grouping of resources is namespace
 #Resource sharing
 #Blue green deployment
 #Restricted access
+Volume is namespace independent
 
 
 
