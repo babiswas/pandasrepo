@@ -3,17 +3,13 @@ Helm Chart:
 Helm is a package manager for kubernetes.
 brew install helm
 ===============================================
-
-
 Structure
 #chart.yml
 #value.yml
 #template
 ===============================================
-
 helm create demochart
 #Create helm chart
-
 Chart.yml
 values.yml
 ===============================================
@@ -22,7 +18,6 @@ values.yml
 3.Fill values.yml
 #helm install command
 ===============================================
-
 Demochart:
 =========
 helm create springboot
@@ -41,7 +36,23 @@ helm list -a
 kubectl get all
 ==================================================
 helm rollback release version
+helm list -a(List all releases)
+==================================================
+Installing the helm chart:
+brew install helm
+helm create helloworld
+tree helloworld
+
+helm install release_name chart_name
 helm list -a
+kubectl get service
+helm install release chart
+helm list -a
+kubectl get service
+
+
+
+
 
 
 
