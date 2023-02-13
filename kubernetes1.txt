@@ -1,0 +1,82 @@
+Kubernetes:
+====================================
+What kubernetes is?
+Container orchestration framework
+1.High availibility
+2.Scalibility
+3.Disaster Recovery
+====================================
+Kubernetes Components:
+Node and Pod
+Pods
+======
+1.Master and worker nodes
+2.Smallest unit of k8 is pod
+3.Each pod has its own ip adress
+4.Pods are ephemeral
+Service:
+=======
+life cycle of a service is infinite
+Pods will be associated with a service
+Service type:External/Internal
+Ingress:
+=========
+Request->Ingress->Service->Pods
+Ingress does the forwarding to the service
+
+Configmap and secrets:
+=======================
+s1.Eternal configuration
+2.Url of database,Database username,Database password
+
+Secret:
+========
+1.use to store secret data
+
+Components:
+1.Pods
+2.Services
+3.Ingress
+4.Config map
+5.Secret
+
+
+Volumes:
+========
+Physical storage(local/remote)
+
+Master------------>Cluster
+node1 node2 node3
+
+External Service(Ingress)
+==========================
+Configmap
+Secret
+=====================================================================================================================
+1.Deployment
+Create deployments to scale up down application
+2.Statefulset
+
+Kbernetes Architecture:
+=======================
+Container runtime
+Kubelet--->assigning resources
+kube proxy
+Each node should have
+Container run time
+Kubelet
+====================================================================================================================
+Container run time
+Kubelet
+Kubeproxy
+=================================================================================================================
+Interacting with the cluster
+
+
+
+
+
+
+
+
+
