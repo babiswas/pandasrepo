@@ -54,6 +54,27 @@ upstream repository
 helm repo list
 helm repo add <REPO_NAME> <REPO_URL>
 helm search repo <REPO_NAME>
+helm repo update
+helm repo index helloworld
+helm repo remove bitnami
+===================================================
+helm search hub wordpress
+helm 3.0
+kubectl get nodes
+rm -rf ./wordpress
+kubectl create namespace nswordpress
+kubectl get namespace
+=====================================================
+helm install release chart --values=XXX.yml
+kubectl get namespace
+kubectl get all --namespace nswordpress(namespace)
+=======================================================
+
+
+
+
+
+
 
 
 
