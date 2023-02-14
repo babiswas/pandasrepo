@@ -127,6 +127,11 @@ logical grouping of resources is namespace
 #Blue green deployment
 #Restricted access
 Volume is namespace independent
+=====================================================================================================================
+Ingress
+browser->loadbalancer->ingress->internalservice->pod.
+=====================================================================================================================
+Helm:
 
 
 
